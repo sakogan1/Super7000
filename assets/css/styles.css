@@ -1,0 +1,168 @@
+/* rgb(233, 233, 224), #333 */
+
+body{
+    width: 1440px;
+    background-color: rgb(233, 233, 224);
+    /* font-family: 'Cormorant Garamond', serif; */
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+h1
+{
+    text-align: center;
+}
+h2
+{
+    font-size:2em;
+}
+h1::before
+{
+    content: "S";
+    font-size: 48px;
+}
+h2::before
+{
+    padding-left: 5px;
+    content: "N";
+    font-size: 48px;
+}
+nav
+{
+    border-bottom: 5px double #333;
+    border-top: 5px double #333;
+}
+nav>ul
+{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px;
+    margin: 0;
+}
+nav>ul>li
+{
+    padding: 0;
+    margin: 0;
+}
+main h1
+{
+    text-align: left;
+    padding-left: 150px;
+}
+main h1::before
+{
+    content: unset;
+}
+main h2::before
+{
+    content: unset;
+}
+.gridContainer
+{
+    display: grid;
+    grid-template-columns: 1.2fr 1.4fr 2fr 1fr;
+    grid-template-rows: 120px 230px 300px ;
+    gap:20px;
+    
+   
+}
+.gridContainer h2
+{
+    font-size: 24px;
+}
+
+#item3 img
+{
+    width:630px;
+    height:700px;
+}
+#item4 div
+{
+    position: absolute;
+    top:150px;
+    right: 190px;
+}
+
+
+#item8 div
+{
+    position: absolute;
+    top:210px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 5px double #333;
+}
+#item8 h1
+{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 48px;
+}
+
+#item7 h2
+{
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+}
+
+#item7 div
+{
+    position: absolute;
+    top:440px;
+    left: 1240px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 5px double #333;
+}
+#item7 p
+{
+    text-align: center;
+}
+#item7 p:last-of-type
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-decoration: underline;
+}
+
+#item12 div
+{
+    position: absolute;
+    top:670px;
+    left: 1240px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 5px double #333;
+}
+#item12 img
+{
+    margin-top: 10px;
+    width: 180px;
+    filter: grayscale(100%);
+}
